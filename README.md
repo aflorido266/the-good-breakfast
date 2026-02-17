@@ -59,6 +59,9 @@ Estructurar el contenido de una página web mediante etiquetas HTML.
 - Añade un link ‘Contact Us’ en la sección del pie de página. Debería abrir la aplicación de correo del usuario para poder enviar un mail al equipo.
 - Muestra el horario de apertura del restaurante
 
+### Bonus track: Vídeo
+- Cambia la imagen de la página por un vídeo.
+
 ### Validaciones:
 
 - Comprueba que tu página está correctamente estructurada con la herramienta: https://validator.w3.org/
