@@ -1,0 +1,140 @@
+
+
+header {
+    background-color: #556b2f;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #d2691e;
+ }
+
+ body {
+    background-color: papayawhip;
+    margin: 0;
+    padding: 0;
+}
+article{
+    background-color: white;
+    margin:20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #556b2f;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight: bold;
+    transition: 0.3em;
+}
+
+nav a:hover {
+    color: #d2691e;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Pone los elementos en vertical */
+    align-items: center;    /* Los centra horizontalmente */
+    text-align: center;     /* Centra las líneas de texto */
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6; /* Esto da un poco de espacio entre líneas para que se lea mejor */
+    color: #333;
+}
+
+/* Fuente para los títulos (más elegante y con personalidad) */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15ex;
+    box-shadow: 0,4px, 15px, rgba(0,0,0,0.05);
+    max-width: 500px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+label{
+    font-weight: bold;
+    color: #556b2f;
+    text-align: left;
+}
+input, textarea, select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;      /* Para que use la misma letra que elegimos antes */
+    font-size: 1rem;
+}
+
+/* Cuando el usuario hace clic para escribir, el borde cambia de color */
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #d2691e;    /* Color naranja pan tostado al hacer clic */
+    box-shadow: 0 0 5px rgba(210, 105, 30, 0.2);
+}
+
+button[type="submit"] {
+background-color: #d2691e;
+color: white;
+padding: 15px;
+border: none;
+border-radius: 10px;
+font-weight: bold;
+cursor: pointer;
+margin-top: 10px;
+}
+
+button[type="submit"]:hover{
+    background-color: #556b2f;;
+}
+
+footer{
+    background-color: #333;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 5px solid #d2691e;
+}
+footer p{
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+footer a {
+    color: #ffdab9;            /* Un color melocotón suave para que los links resalten */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Que se subraye al pasar el ratón */
+}
