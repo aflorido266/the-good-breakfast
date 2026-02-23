@@ -12,6 +12,9 @@ header {
     background-color: papayawhip;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6; /* Esto da un poco de espacio entre líneas para que se lea mejor */
+    color: #333;
 }
 article{
     background-color: white;
@@ -60,13 +63,6 @@ figure {
     padding: 0;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.6; /* Esto da un poco de espacio entre líneas para que se lea mejor */
-    color: #333;
-}
-
-/* Fuente para los títulos (más elegante y con personalidad) */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -114,7 +110,7 @@ margin-top: 10px;
 }
 
 button[type="submit"]:hover{
-    background-color: #556b2f;;
+    background-color: #556b2f;
 }
 
 footer{

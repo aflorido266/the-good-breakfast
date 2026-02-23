@@ -9,84 +9,91 @@
     </head>
 <body>
         <header>
-            <h1>Urban Toast</h1>
+            <h1>The good breakfast</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">DAILY OFFER</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
         </header>
-<nav>
-        <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">DAILY OFFER</a></li>
-            <li><a href="#">CONTACT US</a></li>
-        </ul>
-    </nav>
-
     <main>
-        <h2>The good breakfast</h2>
+        <!-- <h2>The good breakfast</h2> -->
          <p>Here you will find all sorts of delicious treats</p> <figure>
             <img src="https://i.postimg.cc/htxcJGB6/ZKkCecn.jpg" alt="Breakfast treat">
             <figcaption>powered by biscuit.</figcaption>
         </figure>
         <article>
             <h3>The best inredients</h3>
-  <p> commitment is to use impeccable sourcing and <strong>quality ingredients</strong> 
+  <p> Our commitment is to use impeccable sourcing and <strong>quality ingredients</strong> 
   to help you code. An ongoing collaboration between the classroom staff and the 
   development team allow us to iterate our content and give our students the coding 
   'fruits and vegetables' -mainly made of JavaScript- that they need to grow as a 
   healthy developer.</p>
 </article>
-<pre>
-"Good code &amp; good coffee, everyday"
-</pre>
+<!-- <pre> -->
+'"Good code &amp; good coffee, everyday"'
+<!-- </pre> -->
 <h2>Our Coffee & Tea Menu</h2>
 
 <table>
     <thead>
         <tr>
             <th>Category</th>
-            <th>Options</th>
+            <th colspan ="4">Options</th>
+            
         </tr>
     </thead>
     <tbody>
         <tr>
             <td><strong>Coffees</strong></td>
-            <td>Café latte, American, Machiatto, Capuccino</td>
+            <td>Café latte</td>
+            <td>American</td>
+            <td>Macchiato</td>
+            <td>Capuccino</td>
         </tr>
         <tr>
             <td><strong>Teas</strong></td>
-            <td>Earl Grey, Green Tea, Rooibos</td>
+            <td>Earl Grey</td>
+            <td>Green Tea</td>
+            <td> Rooibos</td>
         </tr>
     </tbody>
 </table>
 <section id="Reservas">
-    <h2> Reservas Aqui </h2>
+    <h3>Reservas Aqui</h3>
         <form action="#" method="post">
-            <Div>
-                <label for="nombre">Nombre del Cliente</label>
-                <input type="text" id="nombre" name="nombre">
-            </Div>
             <div>
-                <label for="elejir">Seleccione una opcion</label>
-                <select name="elejir" id="elejir">
+                <label for="nombre">Nombre del Cliente</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="elegir">Seleccione una opcion</label>
+                <select name="elegir" id="elegir">
                     <option value="Snack">Snack</option>
                     <option value="Breakfast">Breakfast</option>
                 </select>
                 
             </div>
-            <div>
-                <label>Cuantas personas son</label>
-                <input type="radio" id="p1" name="personas" value="1" checked>
-                <label for="p1">1 persona</label>
+            <!-- <div> -->
+                <fieldset>
+                    <legend>Cuantas personas son</legend>
+                    <input type="radio" id="p1" name="personas" value="1" checked>
+                    <label for="p1">1 persona</label>
 
-                <input type="radio" id="p2" name="personas" value="2" checked>
-                <label for ="p2">2 personas</label>
+                    <input type="radio" id="p2" name="personas" value="2" >
+                    <label for ="p2">2 personas</label>
 
-                <input type="radio" id="p3" name="personas" value="3" checked>
-                <label for ="p2">3 personas</label>
+                    <input type="radio" id="p3" name="personas" value="3" >
+                    <label for ="p3">3 personas</label>
 
-                <input type="radio" id="p4" name="personas" value="4" checked>
-                <label for ="p2">4 personas</label>
-                
-            </div>
+                    <input type="radio" id="p4" name="personas" value="4" >
+                    <label for ="p4">4 personas</label>
+                </fieldset>
+            <!-- </div> -->
 <button type="submit">Enviar Reserva</button>
 </form>
 </section>
@@ -106,4 +113,3 @@
 
 </body>
 </html>
-<!-- Your content goes here ↓↓↓ -->
